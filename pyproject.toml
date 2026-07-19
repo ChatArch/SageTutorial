@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SageTutorial"
+version = "0.1.0"
+description = "SageMath tutorials and exploratory notes for Lie theory, quantum groups, and computational mathematics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "ChatArch"}]
+keywords = ["sagemath", "lie-theory", "quantum-groups", "mkdocs"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Documentation",
+]
+
+[project.urls]
+Homepage = "https://github.com/ChatArch/SageTutorial"
+Repository = "https://github.com/ChatArch/SageTutorial"
+Documentation = "https://arch.gh.wzhecnu.cn/SageTutorial/"
+
+[project.optional-dependencies]
+docs = ["mkdocs>=1.4.0", "mkdocs-material>=9.0.0", "mkdocs-static-i18n>=1.2.0", "mike>=2.0.0"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools]
+packages = []

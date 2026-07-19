@@ -1,0 +1,60 @@
+QuantumGroup <class 'sage.algebras.quantum_groups.quantum_group_gap.QuantumGroup'>
+signature (cartan_type, q)
+doc first 1200
+
+    A Drinfel'd-Jimbo quantum group (implemented using the optional GAP
+    package ``QuaGroup``).
+
+    EXAMPLES:
+
+    We check the quantum Serre relations. We first we import the
+    `q`-binomial using the `q`-int for quantum groups::
+
+        sage: from sage.algebras.quantum_groups.q_numbers import q_binomial
+
+    We verify the Serre relations for type `A_2`::
+
+        sage: Q = algebras.QuantumGroup(['A',2])
+        sage: F1,F12,F2 = Q.F()
+        sage: q = Q.q()
+        sage: F1^2*F2 - q_binomial(2,1,q) * F1*F2*F1 + F2*F1^2
+        0
+
+    We verify the Serre relations for type `B_2`::
+
+        sage: Q = algebras.QuantumGroup(['B',2])
+        sage: F1, F12, F122, F2 = Q.F()
+        sage: F1^2*F2 - q_binomial(2,1,q^2) * F1*F2*F1 + F2*F1^2
+        0
+        sage: (F2^3*F1 - q_binomial(3,1,q) * F2^2*F1*F2
+        ....:  + q_binomial(3,2,q) * F2*F1*F2^2 - F1*F2^3)
+        0
+
+    REFERENCES:
+
+    - :wikipedia:`Quantum_group`
+    
+FAIL args (['A', 1],) FeatureNotPresentError gap_package_QuaGroup is not available.
+`LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
+No equivalent system packages for debian are known to Sage.
+To install gap_package_QuaGroup using the Sage package manager, you can try to run:
+  !sage -i gap_package_quagroup
+No equivalent system packages for pip are known to Sage.
+FAIL args ('A2',) FeatureNotPresentError gap_package_QuaGroup is not available.
+`LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
+No equivalent system packages for debian are known to Sage.
+To install gap_package_QuaGroup using the Sage package manager, you can try to run:
+  !sage -i gap_package_quagroup
+No equivalent system packages for pip are known to Sage.
+FAIL args (['A', 1],) FeatureNotPresentError gap_package_QuaGroup is not available.
+`LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
+No equivalent system packages for debian are known to Sage.
+To install gap_package_QuaGroup using the Sage package manager, you can try to run:
+  !sage -i gap_package_quagroup
+No equivalent system packages for pip are known to Sage.
+FAIL args (['A', 2],) FeatureNotPresentError gap_package_QuaGroup is not available.
+`LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
+No equivalent system packages for debian are known to Sage.
+To install gap_package_QuaGroup using the Sage package manager, you can try to run:
+  !sage -i gap_package_quagroup
+No equivalent system packages for pip are known to Sage.

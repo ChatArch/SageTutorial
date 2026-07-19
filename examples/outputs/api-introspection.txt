@@ -1,0 +1,24 @@
+## WeylCharacterRing introspection
+The Weyl Character Ring of Type A2 with Integer Ring coefficients
+OK (1, 0) A2(1,0,0) degree 3
+FAIL (0, 1) ValueError (0, 1, 0) is not a dominant element of the weight lattice
+OK (1, 0, 0) A2(1,0,0) degree 3
+OK (1, 1, 0) A2(1,1,0) degree 3
+OK (2, 0, 0) A2(2,0,0) degree 6
+OK (2, 1, 0) A2(2,1,0) degree 8
+fundamental_weights attr? ['fundamental_weights']
+
+## LieAlgebra introspection
+Lie algebra of ['A', 2] in the Chevalley basis
+dir h/e/f names ['_cartan_indices', '_cartan_type', 'cartan_type', 'e', 'f']
+basis keys first 20
+[alpha[2], alpha[1], alpha[1] + alpha[2], alphacheck[1], alphacheck[2], -alpha[2], -alpha[1], -alpha[1] - alpha[2]]
+OK L.e(1) -> E[alpha[1]]
+OK L.f(1) -> E[-alpha[1]]
+FAIL L.h(1) AttributeError 'LieAlgebraChevalleyBasis_with_category' object has no attribute 'h'
+FAIL L.monomial(1) KeyError 1
+OK L.monomial(keys[0]) -> E[alpha[2]]
+generators?
+lie_algebra_generators Finite family {alpha[1]: E[alpha[1]], alpha[2]: E[alpha[2]], -alpha[1]: E[-alpha[1]], -alpha[2]: E[-alpha[2]], alphacheck[1]: h1, alphacheck[2]: h2}
+gens (E[alpha[1]], E[alpha[2]], E[-alpha[1]], E[-alpha[2]], h1, h2)
+algebra_generators FAIL AttributeError 'LieAlgebraChevalleyBasis_with_category' object has no attribute 'algebra_generators'
