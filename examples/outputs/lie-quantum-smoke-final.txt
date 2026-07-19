@@ -63,14 +63,14 @@ q_binomial(5,2): (q^12 + q^10 + 2*q^8 + 2*q^6 + 2*q^4 + q^2 + 1)/q^6
 STATUS: OK [Quantum q-numbers]
 
 ## Quantum group module probe
-quantum_group_gap module: <module 'sage.algebras.quantum_groups.quantum_group_gap' from '/home/zhihong/sage/src/sage/algebras/quantum_groups/quantum_group_gap.py'>
+quantum_group_gap module: <module 'sage.algebras.quantum_groups.quantum_group_gap' from '<SAGE_ROOT>/src/sage/algebras/quantum_groups/quantum_group_gap.py'>
 module names sample: ['LowerHalfQuantumGroup', 'LowerHalfQuantumGroup.Element', 'QuaGroupModuleElement', 'QuaGroupRepresentationElement', 'QuantumGroup', 'QuantumGroup.Element', 'QuantumGroupHomset', 'QuantumGroupModule', 'QuantumGroupMorphism']
-QuantumGroup([A,2]) construction: FAIL as expected on current HITK: FeatureNotPresentError: gap_package_QuaGroup is not available.
+QuantumGroup([A,2]) construction: FAIL when QuaGroup is unavailable: FeatureNotPresentError: gap_package_QuaGroup is not available.
 `LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
 No equivalent system packages for debian are known to Sage.
 To install gap_package_QuaGroup using the Sage package manager, you can try to run:
   !sage -i gap_package_quagroup
 No equivalent system packages for pip are known to Sage.
-quantum_groups package path: _NamespacePath(['/home/zhihong/sage/src/sage/algebras/quantum_groups'])
+quantum_groups package path: _NamespacePath(['<SAGE_ROOT>/src/sage/algebras/quantum_groups'])
 quantum_groups dir sample: ['all', 'q_numbers', 'quantum_group_gap']
 STATUS: OK [Quantum group module probe]

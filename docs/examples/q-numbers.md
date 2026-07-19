@@ -22,7 +22,7 @@ q_binomial(5,2): (q^12 + q^10 + 2*q^8 + 2*q^6 + 2*q^4 + q^2 + 1)/q^6
 
 ## 直接构造 QuantumGroup
 
-SageMath 包含 `sage.algebras.quantum_groups.quantum_group_gap`，但当前 HITK 环境缺 GAP 可选包 `QuaGroup`。
+SageMath 包含 `sage.algebras.quantum_groups.quantum_group_gap`，但完整构造依赖 GAP 可选包 `QuaGroup`。
 
 ```python
 from sage.all import algebras

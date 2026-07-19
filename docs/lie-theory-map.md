@@ -7,7 +7,7 @@
 1. **知识层**：理解 Lie theory / quantum groups 的基础对象和典型性质。
 2. **计算层**：看这些对象在 SageMath 中如何表达、计算和做计算式验证。
 
-当前 HITK 上 SageMath 版本为 `10.5.beta2`。对 Lie theory、Weyl groups、root systems、representations、crystals 支持较成熟；对 Drinfeld-Jimbo quantum group 的直接构造模块存在，但依赖 GAP 可选包 `QuaGroup`，当前环境未安装。
+在测试用 SageMath `10.5.beta2` 环境中，对 Lie theory、Weyl groups、root systems、representations、crystals 支持较成熟；对 Drinfeld-Jimbo quantum group 的直接构造模块存在，但依赖 GAP 可选包 `QuaGroup`，当前环境未安装。
 
 ## 2. 基础概念图谱
 
@@ -184,7 +184,7 @@ SageMath 有 `sage.algebras.quantum_groups.quantum_group_gap` 模块，里面有
 - `QuantumGroupModule`
 - `QuantumGroupMorphism`
 
-但当前 HITK 环境中直接构造失败：
+如果当前 SageMath 环境未安装 `QuaGroup`，直接构造会失败：
 
 ```python
 from sage.all import algebras

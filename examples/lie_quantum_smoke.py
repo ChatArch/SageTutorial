@@ -112,7 +112,7 @@ def quantum_gap_probe():
             Q = algebras.QuantumGroup(['A', 2])
             show('QuantumGroup([A,2])', Q)
         except Exception as e:
-            show('QuantumGroup([A,2]) construction', f'FAIL as expected on current HITK: {type(e).__name__}: {e}')
+            show('QuantumGroup([A,2]) construction', f'FAIL when QuaGroup is unavailable: {type(e).__name__}: {e}')
     except Exception as e:
         show('quantum_group_gap import failed', f'{type(e).__name__}: {e}')
     try:

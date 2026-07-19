@@ -39,7 +39,7 @@ from sage.all import algebras
 Q = algebras.QuantumGroup(['A', 2])
 ```
 
-在 HITK 当前环境会失败：
+如果 SageMath 环境未安装 `QuaGroup`，会失败：
 
 ```text
 gap_package_QuaGroup is not available.
