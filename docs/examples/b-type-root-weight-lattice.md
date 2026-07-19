@@ -27,6 +27,44 @@ SageMath 文档参考：
 - Root systems: <https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/root_system/root_system.html>
 - Cartan types: <https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/root_system/cartan_type.html>
 
+## 自然语言解释
+
+可以先把 `B_n` 想成一个在 `n` 维空间里排布的“方向系统”。每个 `e_i` 是一个基本方向。根系告诉我们：这个李代数允许哪些基本对称方向；根格和权格则是在这些方向上允许的“整数步长”和“半整数步长”。
+
+`B_n` 的根有两类：
+
+- 第一类是 `e_i +/- e_j` 这样的组合方向，它们连接两个坐标方向；
+- 第二类是单独的 `e_i`，它们只沿着一个坐标方向走一步。
+
+因为 `B_n` 包含单独的短根 `e_i`，所以 simple roots 生成出来的根格最后正好覆盖整个整数格 `Z^n`。直观地说：根格允许你沿每个坐标轴走任意整数步。
+
+权格比根格稍微大一点。除了整数点以外，它还允许整体平移半步：
+
+```text
+1/2(e_1 + ... + e_n)
+```
+
+所以 `B_n` 的权格由两层组成：
+
+1. 所有整数坐标点；
+2. 所有坐标同时变成半整数的点。
+
+这就是为什么可以写成：
+
+```text
+P(B_n) = Z^n + Z * 1/2(e_1 + ... + e_n)
+```
+
+其中 `omega_n = 1/2(e_1 + ... + e_n)` 代表第二层，也就是 spin representation 对应的那一类半整数最高权。
+
+一句话总结：
+
+```text
+根格 Q(B_n)：只能走整数格点。
+权格 P(B_n)：可以走整数格点，也可以整体平移到半整数格点。
+二者只差一个 Z/2Z 的选择：整数层或半整数层。
+```
+
 ## 根系
 
 `B_n` 的根系为：
