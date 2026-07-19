@@ -1,16 +1,16 @@
 ## import checks
 FAIL sage.combinat.root_system.cartan_type: ImportError: cannot import name ZZ
 FAIL sage.combinat.root_system.root_system: ImportError: cannot import name ZZ
-FAIL sage.combinat.root_system.weyl_group: ImportError: cannot import name 'is_MPolynomial' from partially initialized module 'sage.rings.polynomial.multi_polynomial' (most likely due to a circular import) (/home/zhihong/sage/src/sage/rings/polynomial/multi_polynomial.cpython-312-x86_64-linux-gnu.so)
-OK sage.combinat.root_system.weight_lattice_realizations -> /home/zhihong/sage/src/sage/combinat/root_system/weight_lattice_realizations.py
-OK sage.combinat.root_system.weyl_characters -> /home/zhihong/sage/src/sage/combinat/root_system/weyl_characters.py
-OK sage.algebras.lie_algebras.lie_algebra -> /home/zhihong/sage/src/sage/algebras/lie_algebras/lie_algebra.py
+FAIL sage.combinat.root_system.weyl_group: ImportError: cannot import name 'is_MPolynomial' from partially initialized module 'sage.rings.polynomial.multi_polynomial' (most likely due to a circular import) (<SAGE_ROOT>/src/sage/rings/polynomial/multi_polynomial.cpython-312-x86_64-linux-gnu.so)
+OK sage.combinat.root_system.weight_lattice_realizations -> <SAGE_ROOT>/src/sage/combinat/root_system/weight_lattice_realizations.py
+OK sage.combinat.root_system.weyl_characters -> <SAGE_ROOT>/src/sage/combinat/root_system/weyl_characters.py
+OK sage.algebras.lie_algebras.lie_algebra -> <SAGE_ROOT>/src/sage/algebras/lie_algebras/lie_algebra.py
 FAIL sage.algebras.lie_algebras.catalog: ModuleNotFoundError: No module named 'sage.algebras.lie_algebras.catalog'
-OK sage.combinat.crystals.catalog -> /home/zhihong/sage/src/sage/combinat/crystals/catalog.py
-OK sage.combinat.crystals.tensor_product -> /home/zhihong/sage/src/sage/combinat/crystals/tensor_product.py
-OK sage.combinat.crystals.highest_weight_crystals -> /home/zhihong/sage/src/sage/combinat/crystals/highest_weight_crystals.py
+OK sage.combinat.crystals.catalog -> <SAGE_ROOT>/src/sage/combinat/crystals/catalog.py
+OK sage.combinat.crystals.tensor_product -> <SAGE_ROOT>/src/sage/combinat/crystals/tensor_product.py
+OK sage.combinat.crystals.highest_weight_crystals -> <SAGE_ROOT>/src/sage/combinat/crystals/highest_weight_crystals.py
 OK sage.algebras.quantum_groups -> None
-OK sage.algebras.quantum_groups.q_numbers -> /home/zhihong/sage/src/sage/algebras/quantum_groups/q_numbers.py
+OK sage.algebras.quantum_groups.q_numbers -> <SAGE_ROOT>/src/sage/algebras/quantum_groups/q_numbers.py
 FAIL sage.algebras.quantum_groups.quantum_group_gap: ImportError: cannot import name libgap
 FAIL sage.algebras.quantum_groups.quantum_enveloping_algebra: ModuleNotFoundError: No module named 'sage.algebras.quantum_groups.quantum_enveloping_algebra'
 

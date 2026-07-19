@@ -21,11 +21,11 @@
 这些内容来自 HITK Playground 探索任务：
 
 ```text
-/home/zhihong/Playground/projects/07-19-sagemath-lie-quantum-groups/
+<HITK_PLAYGROUND>/projects/sagemath-lie-quantum-groups/
 ```
 
 相关环境检查任务：
 
 ```text
-/home/zhihong/Playground/projects/07-16-hitk-sagemath-exploration/
+<HITK_PLAYGROUND>/projects/sagemath-environment-check/
 ```

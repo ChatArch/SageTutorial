@@ -2,9 +2,9 @@
 
 ## Environment
 
-- Host: `hitk.cube`
-- Project: `/home/zhihong/Playground/projects/07-19-sagemath-lie-quantum-groups/`
-- Sage command: `/home/zhihong/.local/bin/sage`
+- Host: `HITK Linux server`
+- Project: `<HITK_PLAYGROUND>/projects/sagemath-lie-quantum-groups/`
+- Sage command: `<SAGE_BIN>`
 - Sage version: `SageMath 10.5.beta2`
 - Smoke script: `scripts/lie_quantum_smoke.py`
 - Final output: `reports/lie-quantum-smoke-final.txt`

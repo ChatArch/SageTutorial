@@ -4,13 +4,13 @@ HITK 上的 SageMath 环境已经检查通过。
 
 | 项目 | 值 |
 | --- | --- |
-| host | `hitk.cube` |
-| user | `zhihong` |
-| `sage` | `/home/zhihong/.local/bin/sage` |
-| resolved target | `/home/zhihong/sage/sage` |
+| host | `HITK Linux server` |
+| user | `<user>` |
+| `sage` | `<SAGE_BIN>` |
+| resolved target | `<SAGE_ROOT>/sage` |
 | SageMath version | `10.5.beta2` |
-| `SAGE_ROOT` | `/home/zhihong/sage` |
-| `SAGE_VENV` | `/home/zhihong/sage/local/var/lib/sage/venv-python3.12.4` |
+| `SAGE_ROOT` | `<SAGE_ROOT>` |
+| `SAGE_VENV` | `<SAGE_VENV>` |
 | Sage Python | Python 3.12.4 |
 
 ## 已验证能力
@@ -36,4 +36,4 @@ cycle graph diameter= 2
 
 HITK 环境检查原始任务：
 
-`/home/zhihong/Playground/projects/07-16-hitk-sagemath-exploration/`
+`<HITK_PLAYGROUND>/projects/sagemath-environment-check/`

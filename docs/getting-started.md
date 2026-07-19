@@ -3,7 +3,7 @@
 ## 在 HITK 上运行 smoke test
 
 ```bash
-cd /home/zhihong/Playground/core/SageTutorial
+cd <SAGETUTORIAL_REPO>
 sage -python examples/lie_quantum_smoke.py
 ```
 
