@@ -47,6 +47,7 @@ mkdocs serve
 | Lie theory 概念映射 | `docs/lie-theory-map.md` |
 | 能力边界报告 | `docs/capability-report.md` |
 | A2 根系与 Weyl 群 | `docs/examples/a2-root-weyl.md` |
+| B 型根格与权格 | `docs/examples/b-type-root-weight-lattice.md` |
 | Lie algebra 与 crystals | `docs/examples/lie-crystal.md` |
 | q-number 与 quantum group 边界 | `docs/examples/q-numbers.md` |
 
