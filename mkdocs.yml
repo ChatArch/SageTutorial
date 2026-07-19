@@ -59,6 +59,7 @@ nav:
       - 量子群路线: quantum-groups.md
   - 示例:
       - A2 根系与 Weyl 群: examples/a2-root-weyl.md
+      - B 型根格与权格: examples/b-type-root-weight-lattice.md
       - Lie algebra 与 crystals: examples/lie-crystal.md
       - q-number 与量子群边界: examples/q-numbers.md
   - 参考:

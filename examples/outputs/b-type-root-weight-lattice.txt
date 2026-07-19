@@ -1,0 +1,32 @@
+Cartan type: ['B', 3]
+Rank: 3
+Cartan matrix:
+[ 2 -1  0]
+[-1  2 -1]
+[ 0 -2  2]
+
+Simple roots in the standard orthonormal basis e_i:
+alpha_1 = (1, -1, 0)
+alpha_2 = (0, 1, -1)
+alpha_3 = (0, 0, 1)
+
+Fundamental weights in the standard orthonormal basis e_i:
+omega_1 = (1, 0, 0)
+omega_2 = (1, 1, 0)
+omega_3 = (1/2, 1/2, 1/2)
+
+Root lattice Q(B_n):
+Q(B_n) = Z e_1 + ... + Z e_n
+Check e_i = alpha_i + ... + alpha_n:
+e_1 = (1, 0, 0)
+e_2 = (0, 1, 0)
+e_3 = (0, 0, 1)
+
+Weight lattice P(B_n):
+P(B_n) = Z^n + Z * 1/2(e_1 + ... + e_n)
+Equivalently, coordinates are either all integers or all half-integers.
+spin weight omega_3 = (1/2, 1/2, 1/2)
+
+Quotient:
+P(B_n) / Q(B_n) ~= Z/2Z
+The non-trivial coset is represented by omega_n.
