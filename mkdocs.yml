@@ -36,7 +36,6 @@ plugins:
           nav_translations:
             首页: Home
             入门: Getting Started
-            HITK 环境: HITK Environment
             Lie Theory: Lie Theory
             Quantum Groups: Quantum Groups
             示例: Examples
@@ -53,7 +52,6 @@ nav:
   - 首页: index.md
   - 入门:
       - 快速开始: getting-started.md
-      - HITK 环境: hitk-environment.md
   - Lie Theory:
       - 概念与 SageMath 映射: lie-theory-map.md
       - 能力边界: capability-report.md

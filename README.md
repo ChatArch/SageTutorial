@@ -16,20 +16,18 @@
 
 SageTutorial 是 ChatArch 的 SageMath 教程与探索仓库。当前第一版聚焦：
 
-- HITK 上的 SageMath 10.5.beta2 环境；
 - Lie theory 基础对象：Cartan type、root system、weight lattice、Weyl group；
 - Lie algebra 计算：Chevalley basis、bracket、Jacobi identity；
 - 表示论：Weyl character ring、tensor product decomposition；
-- quantum groups 相关入口：crystals、Kashiwara operators、q-numbers，以及当前 `QuaGroup` 依赖边界。
+- quantum groups 相关入口：crystals、Kashiwara operators、q-numbers，以及 `QuaGroup` 可选依赖边界。
 
 文档入口：<https://arch.gh.wzhecnu.cn/SageTutorial/>
 
 ## 快速开始
 
-在 HITK 上运行：
-
 ```bash
-cd <SAGETUTORIAL_REPO>
+git clone https://github.com/ChatArch/SageTutorial.git
+cd SageTutorial
 sage -python examples/lie_quantum_smoke.py
 ```
 
@@ -46,7 +44,6 @@ mkdocs serve
 | 场景 | 文档 |
 | --- | --- |
 | 了解仓库结构 | `docs/index.md` |
-| HITK SageMath 环境 | `docs/hitk-environment.md` |
 | Lie theory 概念映射 | `docs/lie-theory-map.md` |
 | 能力边界报告 | `docs/capability-report.md` |
 | A2 根系与 Weyl 群 | `docs/examples/a2-root-weyl.md` |
@@ -55,6 +52,4 @@ mkdocs serve
 
 ## 状态
 
-这是 demo 仓库第一版，内容来自 HITK Playground 的探索任务：
-
-`<HITK_PLAYGROUND>/projects/sagemath-lie-quantum-groups/`
+这是 demo 仓库第一版，目标是把 SageMath 的可计算数学能力整理成纯技术教程，不包含账号、绝对路径、内部基础设施或环境细节。

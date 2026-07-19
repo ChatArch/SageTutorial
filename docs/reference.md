@@ -16,16 +16,6 @@
 | `examples/outputs/api-introspection.txt` | WeylCharacterRing / LieAlgebra API 修正记录。 |
 | `examples/outputs/quantum-group-introspection.txt` | `QuantumGroup` 依赖检查输出。 |
 
-## 来源
+## 公开边界
 
-这些内容来自 HITK Playground 探索任务：
-
-```text
-<HITK_PLAYGROUND>/projects/sagemath-lie-quantum-groups/
-```
-
-相关环境检查任务：
-
-```text
-<HITK_PLAYGROUND>/projects/sagemath-environment-check/
-```
+此仓库只保留可公开复现的脚本、数学说明和输出片段。输出中若出现本地 Sage 源码路径，一律用 `<SAGE_ROOT>` 形式表示。

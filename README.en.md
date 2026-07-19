@@ -4,17 +4,18 @@ SageTutorial is a ChatArch documentation/demo repository for SageMath tutorials 
 
 The first version focuses on:
 
-- SageMath 10.5.beta2 on HITK;
 - Lie theory basics: Cartan types, root systems, weight lattices, Weyl groups;
 - Lie algebra computations: Chevalley basis, brackets, Jacobi identity;
 - Representation theory: Weyl character rings and tensor product decompositions;
-- Quantum-group adjacent tools: crystals, Kashiwara operators, q-numbers, and the current `QuaGroup` dependency boundary.
+- Quantum-group adjacent tools: crystals, Kashiwara operators, q-numbers, and the optional `QuaGroup` dependency boundary.
 
 Documentation: <https://arch.gh.wzhecnu.cn/SageTutorial/>
 
 ## Quick Start
 
 ```bash
+git clone https://github.com/ChatArch/SageTutorial.git
+cd SageTutorial
 sage -python examples/lie_quantum_smoke.py
 ```
 

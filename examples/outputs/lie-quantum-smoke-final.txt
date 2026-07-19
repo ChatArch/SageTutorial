@@ -65,7 +65,7 @@ STATUS: OK [Quantum q-numbers]
 ## Quantum group module probe
 quantum_group_gap module: <module 'sage.algebras.quantum_groups.quantum_group_gap' from '<SAGE_ROOT>/src/sage/algebras/quantum_groups/quantum_group_gap.py'>
 module names sample: ['LowerHalfQuantumGroup', 'LowerHalfQuantumGroup.Element', 'QuaGroupModuleElement', 'QuaGroupRepresentationElement', 'QuantumGroup', 'QuantumGroup.Element', 'QuantumGroupHomset', 'QuantumGroupModule', 'QuantumGroupMorphism']
-QuantumGroup([A,2]) construction: FAIL as expected on current HITK: FeatureNotPresentError: gap_package_QuaGroup is not available.
+QuantumGroup([A,2]) construction: FAIL when QuaGroup is unavailable: FeatureNotPresentError: gap_package_QuaGroup is not available.
 `LoadPackage("QuaGroup")` evaluated to `fail` in GAP.
 No equivalent system packages for debian are known to Sage.
 To install gap_package_QuaGroup using the Sage package manager, you can try to run:

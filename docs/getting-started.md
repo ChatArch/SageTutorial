@@ -1,9 +1,10 @@
 # 快速开始
 
-## 在 HITK 上运行 smoke test
+## 运行 smoke test
 
 ```bash
-cd <SAGETUTORIAL_REPO>
+git clone https://github.com/ChatArch/SageTutorial.git
+cd SageTutorial
 sage -python examples/lie_quantum_smoke.py
 ```
 

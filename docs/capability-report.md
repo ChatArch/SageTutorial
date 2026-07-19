@@ -2,16 +2,14 @@
 
 ## Environment
 
-- Host: `HITK Linux server`
-- Project: `<HITK_PLAYGROUND>/projects/sagemath-lie-quantum-groups/`
-- Sage command: `<SAGE_BIN>`
+- Tested SageMath version: `10.5.beta2`
+- Smoke script: `examples/lie_quantum_smoke.py`
+- Final output: `examples/outputs/lie-quantum-smoke-final.txt`
 - Sage version: `SageMath 10.5.beta2`
-- Smoke script: `scripts/lie_quantum_smoke.py`
-- Final output: `reports/lie-quantum-smoke-final.txt`
 
 ## Summary
 
-HITK 上的 SageMath 对 Lie theory 的基础计算支持很好，包括：
+SageMath 对 Lie theory 的基础计算支持很好，包括：
 
 - Cartan types / Cartan matrices；
 - root systems / root lattices / weight lattices；
